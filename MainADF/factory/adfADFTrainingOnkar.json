@@ -1,0 +1,9 @@
+{
+	"name": "adfADFTrainingOnkar",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d97f69dd-9775-4ef8-a737-f394d027f2da",
+		"tenantId": "e50ebc84-76f2-4636-b550-c3f7abc924af"
+	}
+}

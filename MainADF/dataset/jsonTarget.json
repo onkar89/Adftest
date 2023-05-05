@@ -1,0 +1,20 @@
+{
+	"name": "jsonTarget",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlslsutput",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "drug.json",
+				"fileSystem": "output"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
