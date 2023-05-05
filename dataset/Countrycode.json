@@ -1,0 +1,36 @@
+{
+	"name": "Countrycode",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobstorageinput",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ExJoins"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "CountryCode.csv",
+				"container": "newcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "cc",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

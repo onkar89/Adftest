@@ -1,0 +1,120 @@
+{
+	"name": "ZomatoDestination",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "TestingazureDB",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ExJoins"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Restaurant ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Restaurant Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "cc",
+				"type": "nvarchar"
+			},
+			{
+				"name": "City",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Address",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Locality",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Locality Verbose",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Longitude",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Latitude",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Cuisines",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Average Cost for two",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Currency",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Has Table booking",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Has Online delivery",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Is delivering now",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Switch to order menu",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Price range",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Aggregate rating",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Rating color",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Rating text",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Votes",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "rnk",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "rank2",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ZomatoTesting"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
